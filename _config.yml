@@ -6,7 +6,7 @@ url: "http://turquoise-rook.cloudvent.net/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
-snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5ODg1ODkw"
+snipcart_key: "ST_YjU4MTFjODctYzA2ZC00MjhlLTg5ZDctNGNjZmQwYzEyZmM5NjM4MzQ1NDQwNzQ2MzY1MzU0"
 snipcart_currency: "usd"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
