@@ -13,7 +13,7 @@
 	data-item-custom1-value="Medium"
 	data-item-custom2-name="Color"
 	data-item-custom2-options="{{ colors }}"
-	data-item-url="{{ include.product.url }}"
+	data-item-url="{% include relative-src.html src=link.link %}{{ include.product.url }}"
 	data-item-price="{{ include.product.price }}">
 	{% if include.text %}{{ include.text }}{% else %}Add to cart{% endif %}
 </button>
