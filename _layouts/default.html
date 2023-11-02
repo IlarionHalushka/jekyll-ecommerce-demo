@@ -9,8 +9,8 @@
 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
+		<link rel="stylesheet" href="{% include relative-src.html src=link.link %}/css/screen.css">
+		<link rel="icon" type="image/png" href="{% include relative-src.html src=link.link %}/favicon.png">
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
@@ -67,17 +67,17 @@
 					<li class="footer-nav">
 						<h4>General</h4>
 						<ul>
-							<li><a href="{{ site.baseurl }}/">Products</a></li>
-							<li><a href="{{ site.baseurl }}/about/">Our Story</a></li>
-							<li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+							<li><a href="{% include relative-src.html src=link.link %}">Products</a></li>
+							<li><a href="{% include relative-src.html src=link.link %}/about/">Our Story</a></li>
+							<li><a href="{% include relative-src.html src=link.link %}/contact/">Contact</a></li>
 						</ul>
 					</li>
 
 					<li class="footer-nav">
 						<h4>Help</h4>
 						<ul>
-							<li><a href="{{ site.baseurl }}/shipping/">Shipping</a></li>
-							<li><a href="{{ site.baseurl }}/returns/">Returns</a></li>
+							<li><a href="{% include relative-src.html src=link.link %}/shipping/">Shipping</a></li>
+							<li><a href="{% include relative-src.html src=link.link %}/returns/">Returns</a></li>
 						</ul>
 					</li>
 
@@ -103,6 +103,6 @@
 				return false;
 			};
 		</script>
-		<script src="{{ site.baseurl }}/js/application.js" type="text/javascript"></script>
+		<script src="{% include relative-src.html src=link.link %}/js/application.js" type="text/javascript"></script>
 	</body>
 </html>
